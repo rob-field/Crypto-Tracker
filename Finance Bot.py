@@ -45,7 +45,8 @@ app.layout = html.Div(children=[
                      n_intervals=0
                      ),
         dcc.Graph(id='graph2',
-                  figure=fig2),
+                  figure=fig2,
+                  ),
     ]),
 ])
 
